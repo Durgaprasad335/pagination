@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>PAGINATION</title>
+</head>
+<body>
+    <button class="btn">
+     
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-btn">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+          </svg>
+          
+    </button>
+    <a href="#" class="page-link">1</a>
+    <a href="#" class="page-link">2</a>
+    <a href="#" class="page-link">3</a>
+    <a href="#" class="page-link">4</a>
+    <a href="#" class="page-link">5</a>
+    <a href="#" class="page-link">6</a>
+    <a href="#" class="page-link">7</a>
+    <a href="#" class="page-link">8</a>
+    <a href="#" class="page-link">9</a>
+    <a href="#" class="page-link">10</a>
+  <span>.......</span>
+
+    <a href="#" class="page-link">59</a>
+    <a href="#" class="page-link">60</a>
+        <button class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-btn">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+              </svg>
+              
+        </button>
+</body>
+</html>
+<style>
+    body{
+        font-family: sans-serif;
+        display: flex;
+        gap: 10px;
+        align-content: center;
+
+    }
+    .icon btn{
+        height: 24px;
+        width: 24px;
+        stroke:black;
+
+    }
+    .btn{
+        border:1px solid  black;
+        padding: 10px;
+        height: 48px;
+        width:48px;
+        border-radius:50%;
+        background-color: rgb(109, 109, 230);
+
+    }
+    .btn:hover{
+        background-color: rgb(11, 145, 100);
+    }
+    .btn:hover  .btn-icon{
+        stroke: white;
+    }
+    .page-link{
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        height: 48px;
+        width: 48px;
+        border-radius:50%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .page-link:hover{
+            background-color: aqua;
+        }
+    .pagination{
+        display: flex;
+        gap:13px;
+        align-content: center;
+    }   
+</style>
